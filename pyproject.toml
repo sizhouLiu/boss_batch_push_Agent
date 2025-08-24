@@ -1,0 +1,14 @@
+[project]
+name = "boss-batch-push-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.116.1",
+    "langchain>=0.3.27",
+    "loguru>=0.7.3",
+    "pydantic>=2.11.7",
+    "uvicorn>=0.35.0",
+]
